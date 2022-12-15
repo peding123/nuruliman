@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="js/bootstrap.bundle.js"></script>
@@ -14,7 +16,7 @@
 <body>
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-warning fixed-top">
+    <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <img src="/docs/5.2/assets/brand/bootstrap-logo.svg" alt="Bootstrap" width="30" height="24">
@@ -100,14 +102,14 @@
     <div class="tentang">
         <div class="container">
             <div class="row">
-                <div class="col-md">
+                <div class="col-md" data-aos="fade-right">
                     <iframe class="video rounded" width="550" height="400"
                         src="https://www.youtube.com/embed/CvIH25xqX58"
                         title="Upgrade PC EDITOR biar kerjanya lebih hepi :(" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>
                 </div>
-                <div class="col-md col">
+                <div class="col-md col" data-aos="fade-left">
                     <h1 class="fw-bold">Tentang</h1>
                     <h1 class="fw-bold sekolah">RA Nurul Iman</h1>
                     <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, vel, delectus
@@ -124,60 +126,59 @@
 
     <!-- Kegiatan -->
     <div class="kegiatan">
-        <div class="container container-kegiatan">
-            <h1 class="fw-bold text-center sekolah">Kegiatan</h1>
+        <div class="container-fluid container-kegiatan">
+            <div class="span">
+                <span class="fw-bold text-center">Kegiatan</span>
+            </div>
             <div class="row row-kegiatan">
-                <div class="card card-kegiatan rounded" style="width: 20rem;">
+                <div class="card-kegiatan rounded" data-aos="fade-down" style="width: 20rem;">
                     <a href=""><img src="img/kegiatan/activity.jpg" class="card-img-top rounded" alt=""></a>
-                    <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                            of the card's content.</p>
-                    </div>
                 </div>
-                <div class="card card-kegiatan rounded" style="width: 20rem;">
-                    <a href=""><img src="img/kegiatan/activity.jpg" class="card-img-top rounded" alt=""></a>
-                    <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                            of the card's content.</p>
-                    </div>
+                <div class="card-kegiatan rounded" data-aos="fade-down" data-aos-delay="50"
+                    style="width: 20rem;">
+                    <a href=""><img src="img/kegiatan/activity.jpg" class=" rounded" alt=""></a>
                 </div>
-                <div class="card card-kegiatan rounded" style="width: 20rem;">
+                <div class="card-kegiatan rounded" data-aos="fade-down" data-aos-delay="250"
+                    style="width: 20rem;">
                     <a href=""><img src="img/kegiatan/activity.jpg" class="card-img-top rounded" alt=""></a>
-                    <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                            of the card's content.</p>
-                    </div>
+                </div>
+                <div class="card-kegiatan rounded" data-aos="fade-down" data-aos-delay="450"
+                    style="width: 20rem;">
+                    <a href=""><img src="img/kegiatan/activity.jpg" class="card-img-top rounded" alt=""></a>
                 </div>
             </div>
             <div class="row row-kegiatan">
-                <div class="card card-kegiatan rounded" style="width: 20rem;">
-                    <a href=""><img src="img/kegiatan/activity.jpg" class="card-img-top rounded" alt=""></a>
-                    <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                            of the card's content.</p>
-                    </div>
+                <div class="card-kegiatan rounded" data-aos="fade-down" style="width: 20rem;">
+                    <a href=""><img src="img/kegiatan/activity.jpg" class="rounded" alt=""></a>
                 </div>
-                <div class="card card-kegiatan rounded" style="width: 20rem;">
+                <div class="card-kegiatan rounded" data-aos="fade-down" data-aos-delay="50"
+                    style="width: 20rem;">
                     <a href=""><img src="img/kegiatan/activity.jpg" class="card-img-top rounded" alt=""></a>
-                    <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                            of the card's content.</p>
-                    </div>
                 </div>
-                <div class="card card-kegiatan rounded" style="width: 20rem;">
+                <div class="card-kegiatan rounded" data-aos="fade-down" data-aos-delay="250"
+                    style="width: 20rem;">
                     <a href=""><img src="img/kegiatan/activity.jpg" class="card-img-top rounded" alt=""></a>
-                    <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                            of the card's content.</p>
-                    </div>
+                </div>
+                <div class="card-kegiatan rounded" data-aos="fade-down" data-aos-delay="450"
+                    style="width: 20rem;">
+                    <a href=""><img src="img/kegiatan/activity.jpg" class="card-img-top rounded" alt=""></a>
                 </div>
             </div>
             <div class="button pt-5">
-                <a href=""><button class="btn">Selengkapnya</button></a>
+                <a href=""><button class="btn">Selengkapnya ➤</button></a>
             </div>
         </div>
     </div>
     <!-- Kegiatan -->
+
+    <!-- AOS -->
+    <script>
+        AOS.init({
+            once: true,
+            duration: 800,
+        });
+    </script>
+    <!-- AOS -->
 
 </body>
 

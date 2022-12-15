@@ -7,15 +7,16 @@ body {
 /* Navbar */
 .navbar {
     font-weight: bold;
+    background-color: #E8F3D6;
 }
 
 .nav-link {
-    color: #157347;
+    color: #FAAB78;
     margin-left: 20px;
 }
 
 .nav-link:focus {
-    color: #157347;
+    color: #FAAB78;
 }
 
 .nav-link:hover {
@@ -24,17 +25,17 @@ body {
 
 .dropdown-menu {
     border: none;
-    background-color: #FFC107;
+    background-color: #E8F3D6;
 }
 
 .dropdown-item {
     font-weight: bold;
-    color: #157347;
+    color: #FAAB78;
 }
 
 .dropdown-item:hover {
     color: #fff;
-    background-color: #FFC107;
+    background-color: #E8F3D6;
 }
 
 /* Navbar */
@@ -59,38 +60,58 @@ body {
 }
 
 .sekolah {
-    color: #157347;
+    color: #FAAB78;
 }
 
 .btn {
-    border: 1px solid #157347;
-    color: #157347;
+    border: 1px solid #FAAB78;
+    color: #FAAB78;
 }
 
 .btn:hover {
     color: #FFF;
-    background-color: #157347;
+    background-color: #FAAB78;
 }
 
 /* Tentang */
 
 /* Kegiatan */
 .kegiatan {
-    background-color: #FFC107;
+    background-color: #E8F3D6;
 }
 
 .container-kegiatan {
     padding: 50px 0px;
 }
 
-.row-kegiatan {}
+.span {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.5em;
+    color: #FAAB78;
+    margin-bottom: 80px;
+}
 
-.card {
+.span span {
+    padding-bottom: 10px;
+    border-bottom: 10px solid #FAAB78;
+}
+
+.row-kegiatan {
+    margin: 0px 15px;
+    margin-top: 15px;
+}
+
+.card-kegiatan {
+    margin: 0;
     border: none;
     margin: auto;
-    margin-top: 50px;
     padding-top: 12px;
     box-shadow: 5px 10px 18px #888888;
+}
+
+.card-img-top {
+    margin: 0 !important;
 }
 
 .button {
@@ -109,7 +130,7 @@ body {
         padding: 10px 0px;
         text-align: center;
         color: #FFF;
-        background-color: #157347;
+        background-color: #FAAB78;
     }
 
     /* navbar */
@@ -131,9 +152,22 @@ body {
         margin: 0;
     }
 
+    .span {
+        margin-bottom: 60px;
+    }
+
     .col-md {
         margin: 0;
         padding-top: 20px;
+    }
+
+    .card-kegiatan {
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .card-kegiatan img {
+        width: 100%;
     }
 
     /* tentang */
