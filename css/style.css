@@ -7,16 +7,16 @@ body {
 /* Navbar */
 .navbar {
     font-weight: bold;
-    background-color: #E8F3D6;
+    background-color: #FED049;
 }
 
 .nav-link {
-    color: #FAAB78;
+    color: #251749;
     margin-left: 20px;
 }
 
 .nav-link:focus {
-    color: #FAAB78;
+    color: #251749;
 }
 
 .nav-link:hover {
@@ -25,17 +25,17 @@ body {
 
 .dropdown-menu {
     border: none;
-    background-color: #E8F3D6;
+    background-color: #FED049;
 }
 
 .dropdown-item {
     font-weight: bold;
-    color: #FAAB78;
+    color: #251749;
 }
 
 .dropdown-item:hover {
     color: #fff;
-    background-color: #E8F3D6;
+    background-color: #FED049;
 }
 
 /* Navbar */
@@ -51,31 +51,31 @@ body {
     background-size: cover;
 }
 
-.row {}
+.row-tentang {}
 
 .col-md {}
 
 .video {}
 
 .sekolah {
-    color: #FAAB78;
+    color: #251749;
 }
 
 .btn {
-    border: 1px solid #FAAB78;
-    color: #FAAB78;
+    border: 1px solid #251749;
+    color: #251749;
 }
 
 .btn:hover {
     color: #FFF;
-    background-color: #FAAB78;
+    background-color: #251749;
 }
 
 /* Tentang */
 
 /* Kegiatan */
 .kegiatan {
-    background-color: #E8F3D6;
+    background-color: #FED049;
 }
 
 .container-kegiatan {
@@ -86,13 +86,13 @@ body {
     text-align: center;
     font-weight: bold;
     font-size: 2.5em;
-    color: #FAAB78;
+    color: #251749;
     margin-bottom: 80px;
 }
 
 .span span {
     padding-bottom: 10px;
-    border-bottom: 10px solid #FAAB78;
+    border-bottom: 3px solid #251749;
 }
 
 .row-kegiatan {
@@ -107,9 +107,11 @@ body {
 .col-md {
     margin: 2px;
     overflow: hidden;
+    border-radius: 10px;
 }
 
 .col-md img {
+    border-radius: 10px;
     filter: brightness(50%);
     transition: all .5s ease;
 }
@@ -135,7 +137,7 @@ body {
         padding: 10px 0px;
         text-align: center;
         color: #FFF;
-        background-color: #FAAB78;
+        background-color: #251749;
     }
 
     /* navbar */
